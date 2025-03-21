@@ -61,7 +61,7 @@ In TommyTernal, a feature called cl_dynamicuserpacket exists. If set to 1 (defau
 
 ### cl_commandsize 
 
-On clients that support this (I believe old NWH had it, but current does not, but I might be wrong), set it to 512 to compensate negative effects on clientside prediction when experiencing lag. If you experience a short lag/delay in receiving packets from the server, this will let you keep hopping for a bit without disrupting your flow, which might save you in some situations. This setting does not affect gameplay or packet timing or anything else about you from the perspective of other players, its imply improves the prediction in your own client.
+On clients that support this (I believe old NWH had it, but current does not, but I might be wrong), set it to 512 to compensate negative effects on clientside prediction when experiencing lag. If you experience a short lag/delay in receiving packets from the server, this will let you keep hopping for a bit without disrupting your flow, which might save you in some situations. This setting does not affect gameplay or packet timing or anything else about you from the perspective of other players, it imply improves the prediction in your own client.
 
 ## Server settings
 
