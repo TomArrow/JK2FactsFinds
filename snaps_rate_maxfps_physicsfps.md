@@ -57,7 +57,7 @@ cl_packetdup determines how often each user command gets sent to the server. You
 
 #### cl_dynamicuserpacket
 
-In TommyTernal, a feature called cl_dynamicuserpacket exists. If set to 1 (default), the client will automatically check the serverTime of the last snapshot received from the server and use this information to send exactly as many old userpackets to the server as necessary to not have packet loss. This eliminates the need for cl_packetdup, which should be set to 0 when using cl_dynamicuserpacket 1. Otherwise, some annoying console spam (MAX_USERCMDS) can occur.
+In TommyTernal, a feature called cl_dynamicuserpacket exists. If set to 1 (default), the client will automatically check the playerstate commandtime of the last snapshot received from the server and use this information to send exactly as many old userpackets to the server as necessary to not have packet loss. This eliminates the need for cl_packetdup, which should be set to 0 when using cl_dynamicuserpacket 1. Otherwise, some annoying console spam (MAX_USERCMDS) can occur.
 
 ### cl_commandsize 
 
